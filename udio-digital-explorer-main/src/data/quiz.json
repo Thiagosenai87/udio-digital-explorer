@@ -1,0 +1,169 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "q": "O que é taxa de amostragem?",
+      "choices": [
+        "Quantidade de vezes por segundo que o som é capturado",
+        "Volume do áudio",
+        "Tamanho do arquivo"
+      ],
+      "answer": 0,
+      "explain": "Taxa de amostragem é quantas vezes por segundo o sinal é medido (ex.: 44.1 kHz = 44.100 amostras/s)."
+    },
+    {
+      "id": 2,
+      "q": "Qual formato NÃO é comprimido?",
+      "choices": [
+        "MP3",
+        "OGG",
+        "WAV"
+      ],
+      "answer": 2,
+      "explain": "WAV normalmente é sem compressão (raw PCM)."
+    },
+    {
+      "id": 3,
+      "q": "O que o MIDI armazena?",
+      "choices": [
+        "Som gravado",
+        "Instruções musicais",
+        "Ruídos naturais"
+      ],
+      "answer": 1,
+      "explain": "MIDI armazena eventos musicais (notas, dinâmica), não áudio gravado."
+    },
+    {
+      "id": 4,
+      "q": "Quantos bits tem o áudio de CD?",
+      "choices": [
+        "8",
+        "16",
+        "24"
+      ],
+      "answer": 1,
+      "explain": "Áudio de CD padrão é 16 bits por amostra."
+    },
+    {
+      "id": 5,
+      "q": "Som é:",
+      "choices": [
+        "Um movimento do ar",
+        "Um código digital",
+        "Uma imagem vetorial"
+      ],
+      "answer": 0,
+      "explain": "Som é uma onda de pressão (movimento das partículas do meio)."
+    },
+    {
+      "id": 6,
+      "q": "O que determina a qualidade do áudio digital?",
+      "choices": [
+        "FPS",
+        "Bit depth e taxa de amostragem",
+        "Altura da tela"
+      ],
+      "answer": 1,
+      "explain": "Qualidade é influenciada por sample rate e bit depth."
+    },
+    {
+      "id": 7,
+      "q": "O que a compressão MP3 faz?",
+      "choices": [
+        "Aumenta o volume",
+        "Reduz dados irrelevantes do áudio",
+        "Melhora a qualidade"
+      ],
+      "answer": 1,
+      "explain": "MP3 é uma compressão com perdas que remove informações menos perceptíveis."
+    },
+    {
+      "id": 8,
+      "q": "Um arquivo WAV é geralmente...",
+      "choices": [
+        "Menor que MP3",
+        "Igual ao MIDI",
+        "Sem compressão"
+      ],
+      "answer": 2,
+      "explain": "WAV com PCM geralmente é não-comprimido, logo costuma ser maior que MP3."
+    },
+    {
+      "id": 9,
+      "q": "O que é áudio analógico?",
+      "choices": [
+        "Som convertido em números",
+        "Som em forma de onda contínua",
+        "Som comprimido"
+      ],
+      "answer": 1,
+      "explain": "Áudio analógico é contínuo, não discretizado."
+    },
+    {
+      "id": 10,
+      "q": "Exemplo de áudio sintetizado:",
+      "choices": [
+        "Violão sendo gravado",
+        "Beep gerado por software",
+        "Microfone captando voz"
+      ],
+      "answer": 1,
+      "explain": "Áudio sintetizado é gerado por software/hardware sem microfonação real."
+    },
+    {
+      "id": 11,
+      "q": "Para que serve o bit depth?",
+      "choices": [
+        "Controlar resolução visual",
+        "Definir variações de volume no digital",
+        "Aumentar FPS do vídeo"
+      ],
+      "answer": 1,
+      "explain": "Bit depth define a resolução vertical das amostras, influenciando a dinâmica e ruído."
+    },
+    {
+      "id": 12,
+      "q": "O que é forma de onda?",
+      "choices": [
+        "Representação visual do som",
+        "Formato de vídeo",
+        "Tamanho do arquivo"
+      ],
+      "answer": 0,
+      "explain": "Forma de onda é um gráfico amplitude x tempo do sinal."
+    },
+    {
+      "id": 13,
+      "q": "Qual é um formato comprimido?",
+      "choices": [
+        "WAV",
+        "FLAC",
+        "MP3"
+      ],
+      "answer": 2,
+      "explain": "MP3 é compressão com perdas; FLAC é comprimido sem perdas; WAV geralmente é sem compressão."
+    },
+    {
+      "id": 14,
+      "q": "O que significa 44.1 kHz?",
+      "choices": [
+        "Amostragem 44.100 vezes por segundo",
+        "44 mil bits",
+        "Frequência de um mic"
+      ],
+      "answer": 0,
+      "explain": "44.1 kHz = 44.100 amostras por segundo."
+    },
+    {
+      "id": 15,
+      "q": "O MIDI pode conter voz humana?",
+      "choices": [
+        "Sim",
+        "Não",
+        "Apenas se for gravado"
+      ],
+      "answer": 1,
+      "explain": "MIDI não contém áudio; não armazena gravações de voz."
+    }
+  ]
+}
