@@ -93,14 +93,14 @@ const Module3 = () => {
               <div className="mt-6 p-4 bg-white rounded-lg shadow border border-gray-200">
                 <h3 className="text-lg font-semibold mb-4">Demonstração Multimídia</h3>
 
-                <p className="text-sm text-gray-600 mb-2">Áudio Gravado:</p>
+                <p className="text-sm text-gray-600 mb-2">Musica 22050 Hz:</p>
                 <audio controls className="w-full mb-4">
-                  <source src="/media/audio/comentario3.mp3" type="audio/mpeg" />
+                  <source src="/media/audio/comentario3.1.mp3" type="audio/mpeg" />
                 </audio>
 
-                <p className="text-sm text-gray-600 mb-2">Música MIDI:</p>
+                <p className="text-sm text-gray-600 mb-2">Música 8000 Hz:</p>
                 <audio controls className="w-full mb-4">
-                  <source src="/media/audio/emotional-piano-438664.mp3" type="audio/mpeg" />
+                  <source src="/media/audio/comentario3.mp3" type="audio/mpeg" />
                 </audio>
 
                 <p className="text-sm text-gray-600 mb-2">Vídeo:</p>

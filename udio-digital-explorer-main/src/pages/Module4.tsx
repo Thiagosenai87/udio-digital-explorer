@@ -102,9 +102,9 @@ const Module4 = () => {
               <div className="mt-6 p-4 bg-white rounded-lg shadow border border-gray-200">
                 <h3 className="text-lg font-semibold mb-4">Demonstração Multimídia</h3>
 
-                <p className="text-sm text-gray-600 mb-2">Áudio Gravado:</p>
+                <p className="text-sm text-gray-600 mb-2">Musica 44100 Hz:</p>
                 <audio controls className="w-full mb-4">
-                  <source src="/media/audio/comentario4.mp3" type="audio/mpeg" />
+                  <source src="/media/audio/comentario.mp3" type="audio/mpeg" />
                 </audio>
 
                 <p className="text-sm text-gray-600 mb-2">Música MIDI:</p>

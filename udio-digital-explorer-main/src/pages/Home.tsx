@@ -21,7 +21,7 @@ const Home = () => {
           }}
         />
         <div className="relative container mx-auto px-4 py-20">
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="max-w-3xl mx-auto text-center float-animation">
             <h1 className="text-5xl font-bold mb-6 bg-gradient-hero bg-clip-text text-transparent">
               Áudio Digital para Sistemas Multimídia
             </h1>
