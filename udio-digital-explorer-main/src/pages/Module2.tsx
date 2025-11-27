@@ -70,7 +70,7 @@ const Module2 = () => {
 
                 <p className="text-sm text-gray-600 mb-2">Áudio Gravado:</p>
                 <audio controls className="w-full mb-4">
-                  <source src="/media/audio/comentario.mp3" type="audio/mpeg" />
+                  <source src="/media/audio/comentario2.mp3" type="audio/mpeg" />
                 </audio>
 
                 <p className="text-sm text-gray-600 mb-2">Música MIDI:</p>
