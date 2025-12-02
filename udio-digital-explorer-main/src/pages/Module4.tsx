@@ -94,13 +94,24 @@ const Module4 = () => {
               </div>
             </CardContent>
           </Card>
-
-          
+          <div className="w-60 h-60 rounded-lg overflow-hidden bg-black/10 mx-auto">
+  <img 
+    src="/media/images/foto3midi.jpeg"
+    alt="Foto 1"
+    className="w-full h-full object-cover object-center"
+  />
+</div>
+        
 
           <Card className="mb-8 bg-gradient-card border-border/50 shadow-card">
             <CardContent className="p-6">
               <div className="mt-6 p-4 bg-white rounded-lg shadow border border-gray-200">
                 <h3 className="text-lg font-semibold mb-4">Demonstração Multimídia</h3>
+               
+                <p className="text-sm text-gray-600 mb-2">Explicação do Módulo 4:</p>
+                <audio controls className="w-full mb-4">
+                  <source src="/media/audio/modulo4.ogg" type="audio/mpeg" />
+                </audio>
 
                 <p className="text-sm text-gray-600 mb-2">Musica 44100 Hz:</p>
                 <audio controls className="w-full mb-4">
@@ -111,7 +122,7 @@ const Module4 = () => {
                 <audio controls className="w-full mb-4">
                   <source src="/media/audio/emotional-piano-438664.mp3" type="audio/mpeg" />
                 </audio>
-
+                
                 <p className="text-sm text-gray-600 mb-2">Vídeo:</p>
                 <video controls className="w-full max-w-[500px] mx-auto rounded-lg shadow">
                   <source src="/media/video/intro.mp4" type="video/mp4" />

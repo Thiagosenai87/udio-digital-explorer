@@ -93,6 +93,11 @@ const Module3 = () => {
               <div className="mt-6 p-4 bg-white rounded-lg shadow border border-gray-200">
                 <h3 className="text-lg font-semibold mb-4">Demonstração Multimídia</h3>
 
+                <p className="text-sm text-gray-600 mb-2">Explicação do Módulo 3:</p>
+                <audio controls className="w-full mb-4">
+                  <source src="/media/audio/modulo3.ogg" type="audio/mpeg" />
+                </audio>
+
                 <p className="text-sm text-gray-600 mb-2">Musica 22050 Hz:</p>
                 <audio controls className="w-full mb-4">
                   <source src="/media/audio/comentario3.1.mp3" type="audio/mpeg" />
@@ -103,10 +108,7 @@ const Module3 = () => {
                   <source src="/media/audio/comentario3.mp3" type="audio/mpeg" />
                 </audio>
 
-                <p className="text-sm text-gray-600 mb-2">Vídeo:</p>
-                <video controls className="w-full max-w-[500px] mx-auto rounded-lg shadow">
-                  <source src="/media/video/intro.mp4" type="video/mp4" />
-                </video>
+                
               </div>
             </CardContent>
           </Card>
